@@ -1,0 +1,5 @@
+.image-row {
+  display: flex;
+  justify-content: center; /* aligns them horizontally */
+  gap: 20px; /* spacing between images */
+}
