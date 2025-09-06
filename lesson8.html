@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lesson 8: What CSS Does</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Internal CSS for demonstration */
+    h2 {
+      color: blue;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    p {
+      color: gray;
+      line-height: 1.8;
+    }
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+    .demo-box {
+      border: 1px solid black;
+      padding: 10px;
+      margin: 15px 0;
+      background: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lesson 8: What CSS Does</h1>
+
+  <p><strong>HTML</strong> provides the <em>structure</em> of a webpage (what content is there).  
+  <strong>CSS</strong> provides the <em>style</em> (how it looks).</p>
+
+  <h2>Example: Plain HTML (no CSS)</h2>
+  <div class="demo-box">
+    <h1>Hello World</h1>
+    <p>This is a paragraph of plain text. Nothing fancy here.</p>
+  </div>
+
+  <h2>Example: HTML with CSS</h2>
+  <div class="demo-box">
+    <h1 style="color: blue; font-family: Arial; text-align:center;">
+      Hello World
+    </h1>
+    <p style="color: gray; line-height: 1.8;">
+      This is the <span class="highlight">same paragraph</span>,  
+      but styled with CSS for color, spacing, and emphasis.
+    </p>
+  </div>
+
+  <p>Notice how CSS changes <em>fonts, colors, spacing, alignment, and emphasis</em>.</p>
+
+  <p><a href="index.html">⬅ Back to Lessons</a></p>
+</body>
+</html>
