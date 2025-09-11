@@ -3,96 +3,100 @@
 
 /* Basic page styling for a dark theme */
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    color: #f0f0f0; /* Light text for readability */
-    background-color: #121212; /* Very dark background */
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #f0f0f0; /* Light text for readability */
+    background-color: #121212; /* Very dark background */
+    margin: 0;
+    padding: 0;
 }
 
 /* Page container with the new margin layout */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 12px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
 }
 
 /* Header and section styling */
 .project-info {
-    text-align: center;
-    font-style: italic;
-    color: #b0b0b0;
-    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+    color: #b0b0b0;
+    margin-bottom: 20px;
 }
 
 .project-section {
+    /* The underline has been removed by deleting the 'border-bottom' property. */
+    margin-bottom: 30px;
+}
+
+/* Added a new rule to create space between paragraphs and the media container. */
+.project-section p {
     margin-bottom: 30px;
-    border-bottom: 1px solid #333; /* Darker border for subtle separation */
-    padding-bottom: 20px;
 }
 
 .project-section h2 {
-    font-size: 2em;
-    color: #008cff; /* Bright blue accent color */
-    margin-bottom: 10px;
-    border-bottom: 2px solid #444; /* Darker border */
-    padding-bottom: 10px;
+    font-size: 2em;
+    color: #008cff; /* Bright blue accent color */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #444; /* Darker border */
+    padding-bottom: 10px;
 }
 
 /* Styling for the media containers (gifs/pics) */
 .media-container {
-    width: 100%;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    color: #b0b0b0;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
-    overflow: hidden;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #b0b0b0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
 }
 
 .media-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .media-caption {
-    text-align: center;
-    font-style: italic;
-    font-size: 0.9em;
-    color: #888;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #888;
 }
 
 /* Styling for the summary layout */
 .summary-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .summary-details {
-    flex: 2;
-    padding-right: 20px;
+    flex: 2;
+    padding-right: 20px;
 }
 
 .summary-image-group {
-    flex: 1;
-    min-width: 200px;
+    flex: 1;
+    min-width: 200px;
 }
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
-    .summary-container {
-        flex-direction: column;
-    }
-    .summary-details, .summary-image-group {
-        width: 100%;
-        padding-right: 0;
-    }
+    .summary-container {
+        flex-direction: column;
+    }
+    .summary-details, .summary-image-group {
+        width: 100%;
+        padding-right: 0;
+    }
 }
