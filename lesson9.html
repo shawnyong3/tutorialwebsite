@@ -1,86 +1,171 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Engineering Project Page</title>
-    <link rel="stylesheet" href="lesson9.css">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Engineering Project Page</title>
+
+    <link rel="stylesheet" href="lesson9.css">
+
 </head>
+
 <body>
 
-    <!-- Main container for the content -->
-    
-    <div class="container">
-        <!-- Main Media Section -->
-        <section class="project-section">
-            <div class="media-container full-width">
-                <img src="lesson9images/pwm-housing.png" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
-            </div>
-        </section>
 
-        <!-- Project Info and Summary Section with sub-images -->
-        <section class="project-section summary-container">
-            <div class="summary-details">
-                <p class="project-info">
-                    <strong>Project Name:</strong> Engineering Final Project<br>
-                    <strong>Date:</strong> August 2024-May 2025
-                </p>
-                <p id="summary-content">For senior design, I built a laptop-free programmable system that precisely controls speed and movement of a motor controller.</p>
-            </div>
-        </section>
 
-        <section class="project-section background-section">
-            <h2>
-                Background
-            </h2>
-            <p id="background-content">This is a machine that loads a material onto a spinning surface to see if it makes sound or not. This features variable loading, a stable frame, and a stepper motor powered rotary table.</p>
-            <div class="media-container">
-                <img src="lesson9images/fall-sr-design-machine.png" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
-            </div>
-        </section>
+    <!-- Main container for the content -->
 
-        <!-- Iteration Section -->
-        <section class="project-section iteration-section">
-            <h2>Iteration</h2>
-            <p>The initial motor controller was an Arduino connected to a breadboard circuit of 2 buttons for clockwise and counter clockwise spin as well as a potentiometer speed controller. But the jumper wires are really loose and short, the potentiometer was very sensitive and didn't allow mid spin speed change, and the overall setup was hard to access and use.</p>
-            <div class="media-container">
-                <img src="lesson9images/old-sr-design-motor-diagram.png" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
-            </div>
-            <p class="media-caption">Wiring diagram of the initial motor controller</p>
-            <div class="media-container">
-                <img src="lesson9images/old-sr-design-motor-controller.JPG" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
-            </div>
-            <p class="media-caption">The actual circuitry</p>
-            <p>While exploring for a more refined way of controlling the motor, I've found the ZK SMC02, which has more secure wiring and much easier program the movement and speed.</p>
-            <div class="media-container">
-                <img src="lesson9images/stepper-motor-controller.jpg" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
-            </div>
-            <p>The motor controller was then wired up and functioning. But a mount needed to be made for neatness and usability. So a mount was 3D printed to fit retroactively onto the machine.</p>
-            <div class="media-container">
-                <img src="lesson9images/uninstalled-motor-controller-mount.JPG" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
-            </div>
-            <div class="media-container">
-                <img src="lesson9images/assembled-motor-controller-in-car.JPG" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
-            </div>
-            <p>3D printed to fit retroactively onto the machine.</p>
-            
-            <p>The motor controller was mounted onto the machine and multiple algorithms were programmed for the rotary table. Unfortunately, videos of the machine are unavailable due to a signed NDA.</p>
-            <div class="media-container">
-                <img src="lesson9images/spring-sr-design-machine.jpeg" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
-            </div>
-            
-            
-        </section>
+    
 
-        <!-- Conclusion Section -->
-        <section class="project-section conclusion-section">
-            <h2>
-                Conclusion
-            </h2>
-            <p id="conclusion-content">The motor controller was changed to a simpler system that was easier to program and use compared to the first iteration. The people who tried using the motor controller could instantly figure out how to use it.</p>
-        </section>
+    <div class="container">
 
-    </div>
+        <!-- Main Media Section -->
+
+        <section class="project-section">
+
+            <div class="media-container full-width">
+
+                <img src="lesson9images/pwm-housing.png" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Project Info and Summary Section with sub-images -->
+
+        <section class="project-section summary-container">
+
+            <div class="summary-details">
+
+                <p class="project-info">
+
+                    <strong>Project Name:</strong> Engineering Final Project<br>
+
+                    <strong>Date:</strong> August 2024-May 2025
+
+                </p>
+
+                <p id="summary-content">For senior design, I built a laptop-free programmable system that precisely controls speed and movement of a motor controller.</p>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="project-section background-section">
+
+            <h2>
+
+                Background
+
+            </h2>
+
+            <p id="background-content">This is a machine that loads a material onto a spinning surface to see if it makes sound or not. This features variable loading, a stable frame, and a stepper motor powered rotary table.</p>
+
+            <div class="media-container">
+
+                <img src="lesson9images/fall-sr-design-machine.png" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Iteration Section -->
+
+        <section class="project-section iteration-section">
+
+            <h2>Iteration</h2>
+
+            <p>The initial motor controller was an Arduino connected to a breadboard circuit of 2 buttons for clockwise and counter clockwise spin as well as a potentiometer speed controller. But the jumper wires are really loose and short, the potentiometer was very sensitive and didn't allow mid spin speed change, and the overall setup was hard to access and use.</p>
+
+            <div class="media-container">
+
+                <img src="lesson9images/old-sr-design-motor-diagram.png" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+
+            </div>
+
+            <p class="media-caption">Wiring diagram of the initial motor controller</p>
+
+            <div class="media-container">
+
+                <img src="lesson9images/old-sr-design-motor-controller.JPG" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+
+            </div>
+
+            <p class="media-caption">The actual circuitry</p>
+
+            <p>While exploring for a more refined way of controlling the motor, I've found the ZK SMC02, which has more secure wiring and much easier program the movement and speed.</p>
+
+            <div class="media-container">
+
+                <img src="lesson9images/stepper-motor-controller.jpg" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+
+            </div>
+
+            <p>The motor controller was then wired up and functioning. But a mount needed to be made for neatness and usability. So a mount was 3D printed to fit retroactively onto the machine.</p>
+
+            <div class="media-container">
+
+                <img src="lesson9images/uninstalled-motor-controller-mount.JPG" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+
+            </div>
+
+            <div class="media-container">
+
+                <img src="lesson9images/assembled-motor-controller-in-car.JPG" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+
+            </div>
+
+            <p>3D printed to fit retroactively onto the machine.</p>
+
+            
+
+            <p>The motor controller was mounted onto the machine and multiple algorithms were programmed for the rotary table. Unfortunately, videos of the machine are unavailable due to a signed NDA.</p>
+
+            <div class="media-container">
+
+                <img src="lesson9images/spring-sr-design-machine.jpeg" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+
+            </div>
+
+            
+
+            
+
+        </section>
+
+
+
+        <!-- Conclusion Section -->
+
+        <section class="project-section conclusion-section">
+
+            <h2>
+
+                Conclusion
+
+            </h2>
+
+            <p id="conclusion-content">The motor controller was changed to a simpler system that was easier to program and use compared to the first iteration. The people who tried using the motor controller could instantly figure out how to use it.</p>
+
+        </section>
+
+
+
+    </div>
+
+
 
 </body>
+
 </html>
